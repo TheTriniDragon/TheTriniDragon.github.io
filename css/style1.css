@@ -1,0 +1,130 @@
+/* save in the css folder as style.css  this is the main website design*/
+body
+{
+	position: relative;
+	width: 850px;
+	margin: auto;
+}	
+.header
+{
+	height: 200px;
+	width: 850px;
+	/*border: 1px solid #ff0000;*/
+	background-image: url("../imgs/header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logoImage
+{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.topNav
+{
+	position: relative;
+	/*border: 1px solid #ff0000;*/
+	margin-top: 10px;
+	height: 30px;
+}	
+
+.topNav a
+{
+	position: relative;
+	text-decoration: none;
+	/*border: 1px solid #0ff00;*/
+	font-size: 16px;
+	margin-right: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color:#FFBA08;
+	color: #124559;
+}	
+
+.search-box input[type="text"]
+{
+	float: right;
+	right: 310px;
+	font-size:17px;
+}
+.search-box input[type="submit"]
+{
+	float: right;
+	right: 310px;
+	font-size:17px;
+}
+
+
+.topNav a:hover
+{
+	background-color:#124559;
+	color:#C9E3AC;
+}	
+
+#currentTab
+{
+	background-color: #C9E3AC;
+	color:#124559;
+}	
+
+.leftNav
+{
+	position: relative;
+	width:200px;
+	height:800px;
+	/*border: 1px solid #ff0000;*/
+	margin-top: 10px;
+	float: left;
+	text-align: center;
+	background-color:#124559;
+}
+
+.leftNav a
+{
+	position: relative;
+	display: block;
+	/*border: 1px solid #00ff00;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-decoration:none;
+	color:#FFBA08;
+}	
+.leftNav a:hover
+{
+	background-color: #ADD8E6;
+	color:#124559;
+}	
+
+.mainContent
+{
+	position: relative;
+	width: 648px;
+	height: 800px;
+	background-color: #ADD8E6;
+	float: right;
+	margin-top: 10px;
+}	
+
+.clear
+{
+	clear:both;
+}	
+
+.footer
+{
+	position: relative;
+	height: 30px;
+	background-color: #124559;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}	
+#currentBreadcrumb
+{
+	color: #ADD8E6;
+}	

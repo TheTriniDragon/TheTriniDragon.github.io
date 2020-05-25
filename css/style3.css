@@ -1,0 +1,61 @@
+/* save as style3.css  this is the images for the detailed products and services*/
+img
+{
+	height: 200px;
+	width: 200px;
+}	
+
+
+.img1
+{
+	position: relative;
+	top: 40px;
+	left: 10px;
+	z-index: 1;
+	/*border: 1px solid #00ff00;*/
+	opacity:0.5;
+}	
+
+
+.img2
+{
+	position: relative;
+	top: 40px;
+	left: 10px;
+	z-index: 2;
+	opacity:0.5;
+}	
+
+
+.img3
+{
+	position: relative;
+	top: 40px;
+	left:10px;
+	z-index: 3;
+	opacity:0.5;
+}	
+
+img:hover
+{
+	opacity: 1;
+	/*border: 1px solid #00ff00;*/
+	z-index: 5;
+}	
+.search-box input[type="text"]
+{
+	float: right;
+	right: 310px;
+	font-size:17px;
+}
+.search-box input[type="submit"]
+{
+	float: right;
+	right: 310px;
+	font-size:17px;
+}
+
+#currentBreadcrumb
+{
+	color: #ADD8E6;
+}	
